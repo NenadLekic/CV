@@ -1,0 +1,156 @@
+/* main style */
+
+body {
+  font-family: 'Permanent Marker', cursive;
+  background-color: #060606;
+}
+footer {
+  background-color: #060606;
+  padding: 25px;
+}
+.jumbotron p {
+  font-size: 250%;
+}
+/*.jumbotron {
+  color: rgb(252,2,2);
+  background-image: url("images/moon.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;*/
+}
+div p {
+  font-size: 150%;
+}
+.footer img {
+  width: 4rem;
+  height: 2rem;
+  margin: 0px;
+  padding: 0px;
+}
+.glyphicon {font-size: 4rem;
+  color: #fc0202;
+}
+#copyright {
+  text-align: center;
+  font-size: 1rem;
+  vertical-align: middle;
+  color: #fc0202;
+}
+.glyphicon:hover {
+  color: white;
+}
+.opis {
+  background-color: #060606;
+  margin: 0 auto 0 -7rem;
+  font-size: 2.3rem;
+  color: #fc0202;
+}
+.opis:hover {
+  color: white;
+}
+#cover {
+  background-color: #060606;
+  padding: 4rem 0;
+  border-top: 1rem solid #fc0202;
+}
+#top-cover {
+  margin-bottom: 0px;
+}
+.col-sm-12 {
+  background-color: #060606;
+}
+#naslov {
+  padding: 4rem 0; 
+  background-color: #060606;
+  margin: 0 auto;
+  font-size: 2.9rem;
+  color: #fc0202;
+}
+h2#naslov {
+  padding: 0;
+}
+a, button {
+  position: relative;
+}
+a:active, button:active {
+  top: 2px;
+}
+button {
+  background-color: #060606;
+  border: 0px;
+}
+.sakriveno {
+  color: #fc0202;
+  font-size: 1.7rem;
+  display: none;
+}
+
+
+/* screen size <769 px */
+    
+@media only screen and (max-width:768px){
+        #naslov {
+          display: none;
+        }
+        #cover {
+          padding-bottom: 5rem;
+        }
+        .opis {
+          font-size: 1.6rem;
+          margin: 0 auto;
+        }
+        .sakriveno {
+          font-size: 1.2rem;
+          border-bottom: 1px solid  #fc0202;
+          padding-bottom: 2rem;
+          margin-bottom: 2rem;
+        }
+    }
+
+
+/* screen size 769-1024 px */
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+        .opis {
+          font-size: 1.75rem;
+        }
+        .collapse {
+          font-size: 1.5rem;
+        }
+    }
+
+
+/* classes for jQuery */   
+
+.active {
+    	border: 1px solid #fc0202;
+    }
+
+
+/* jumbotron background animation */
+
+.jumbotron {
+  color: rgb(252,2,2);
+  background-color: #060606;
+  -webkit-animation: mymove 5s 1 ; /* Chrome, Safari, Opera */
+  animation: mymove 5s 1;
+  animation-fill-mode: forwards;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+from {background-color: #060606;}
+to {background-image: url("images/moon.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+from {background-color: #060606;}
+to {background-image: url("images/moon.jpeg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;}
+}
