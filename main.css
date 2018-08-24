@@ -102,7 +102,7 @@ a:hover {
 a:active {
     color: yellow;
     background-color: transparent;
-    text-decoration: underline;
+  text-decoration: underline;}
 
 
 /* screen size <769 px */
