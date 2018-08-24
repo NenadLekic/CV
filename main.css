@@ -71,6 +71,7 @@ h2#naslov {
 }
 a, button {
   position: relative;
+  color: #fc0202;
 }
 a:active, button:active {
   top: 2px;
@@ -84,10 +85,7 @@ button {
   font-size: 1.7rem;
   display: none;
 }
-a:link {
-    color: #fc0202; 
-    background-color: transparent;
-}
+
 
 /* screen size <769 px */
     
