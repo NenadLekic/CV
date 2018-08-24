@@ -84,7 +84,10 @@ button {
   font-size: 1.7rem;
   display: none;
 }
-
+a:link {
+    color: #fc0202; 
+    background-color: transparent;
+}
 
 /* screen size <769 px */
     
